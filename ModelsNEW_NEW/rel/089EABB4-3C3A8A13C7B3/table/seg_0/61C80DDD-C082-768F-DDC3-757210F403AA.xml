@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="61C80DDD-C082-768F-DDC3-757210F403AA" name="Borrowing">
+<createdBy>User</createdBy>
+<createdTime>2021-11-29 22:01:54 UTC</createdTime>
+<ownerDesignName>ModelsNEW_NEW</ownerDesignName>
+<importedID>1437332D-01F4-8657-083A-B369320D7E5E</importedID>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="book_id" id="8FE12C19-517F-C58A-CFB8-7D0B59B3A41A">
+<createdBy>User</createdBy>
+<createdTime>2021-11-29 22:01:54 UTC</createdTime>
+<ownerDesignName>ModelsNEW_NEW</ownerDesignName>
+<importedID>CB4A8094-2A17-3DDD-893D-49138DE0D111</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11A486C2-E937-D0C4-94B8-EAC6DEE2CD85" referredColumn="197FE8BE-AC83-B1A1-40A1-D05E36B3C40F"/>
+</associations>
+</Column>
+<Column name="reader_id" id="F821918D-20D0-EBF2-D01B-B27A6D760C55">
+<createdBy>User</createdBy>
+<createdTime>2021-11-29 22:01:54 UTC</createdTime>
+<ownerDesignName>ModelsNEW_NEW</ownerDesignName>
+<importedID>8306D821-A142-2854-C3FA-C1BAD9B24AAA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1017928F-F2C0-FB1D-98FA-88BB3EE8774B" referredColumn="56AEAC1B-DEDD-BC6E-4171-44B312535F3C"/>
+</associations>
+</Column>
+<Column name="employee_id" id="F9EE8FE5-971E-EF5D-406E-BAAC3F81A9CF">
+<createdBy>User</createdBy>
+<createdTime>2021-11-29 22:01:54 UTC</createdTime>
+<ownerDesignName>ModelsNEW_NEW</ownerDesignName>
+<importedID>E93858F9-0040-9C7E-1BD3-89E2451D4B21</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C652CB3-ADED-9E94-1FF9-ABF96ADBDC58" referredColumn="48EEC1C3-B253-DE5B-EF6F-0801556F97E5"/>
+</associations>
+</Column>
+<Column name="date_borrow" id="4591DBE1-88AB-C6B0-B12D-3244BB0245D4">
+<createdBy>User</createdBy>
+<createdTime>2021-11-29 22:01:54 UTC</createdTime>
+<ownerDesignName>ModelsNEW_NEW</ownerDesignName>
+<importedID>F29BC089-2370-7A0C-9A36-46AEA7E3943E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_period" id="1B0A6947-7BA4-2CC0-E0EF-F6BED0D137AF">
+<createdBy>User</createdBy>
+<createdTime>2021-11-29 22:01:54 UTC</createdTime>
+<ownerDesignName>ModelsNEW_NEW</ownerDesignName>
+<importedID>1C63E592-096C-BBD5-A862-8801B7DFE3DC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D1B2FD3-F8E3-F1F8-5F70-45BFFF372352" name="Borrowing_Employee_FK">
+<createdBy>User</createdBy>
+<createdTime>2021-11-29 22:01:54 UTC</createdTime>
+<ownerDesignName>ModelsNEW_NEW</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9EE8FE5-971E-EF5D-406E-BAAC3F81A9CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A34E244-E231-3B92-AE97-C54E2DA16BBD" name="Borrowing_Reader_FK">
+<createdBy>User</createdBy>
+<createdTime>2021-11-29 22:01:54 UTC</createdTime>
+<ownerDesignName>ModelsNEW_NEW</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F821918D-20D0-EBF2-D01B-B27A6D760C55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90E31ABA-C1A3-96C9-A9F2-AA7D1F0FEFF8" name="Borrowing_Book_FK">
+<createdBy>User</createdBy>
+<createdTime>2021-11-29 22:01:54 UTC</createdTime>
+<ownerDesignName>ModelsNEW_NEW</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FE12C19-517F-C58A-CFB8-7D0B59B3A41A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

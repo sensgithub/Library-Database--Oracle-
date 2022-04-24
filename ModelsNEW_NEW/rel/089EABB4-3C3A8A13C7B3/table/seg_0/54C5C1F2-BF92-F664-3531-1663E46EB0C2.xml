@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="54C5C1F2-BF92-F664-3531-1663E46EB0C2" name="Genre">
+<createdBy>User</createdBy>
+<createdTime>2021-11-29 22:01:54 UTC</createdTime>
+<ownerDesignName>ModelsNEW_NEW</ownerDesignName>
+<importedID>30B7A4FE-8C6B-A82D-CB63-FA203B228B07</importedID>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="genre_id" id="99103958-11C1-C523-7B19-2246BF0FD740">
+<createdBy>User</createdBy>
+<createdTime>2021-11-29 22:01:54 UTC</createdTime>
+<ownerDesignName>ModelsNEW_NEW</ownerDesignName>
+<importedID>138FA9E1-A2D0-EC2D-DAB9-C7CB50CECCED</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genre_name" id="B74E5D0D-519C-D376-AD32-72CB9CDB166B">
+<createdBy>User</createdBy>
+<createdTime>2021-11-29 22:01:54 UTC</createdTime>
+<ownerDesignName>ModelsNEW_NEW</ownerDesignName>
+<importedID>C1A4E62A-E52C-BFF4-2949-9D6FC099879E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B182B18B-E5B4-0BC0-0EEB-E76A1B5105F8" name="Genre_PK">
+<createdBy>User</createdBy>
+<createdTime>2021-11-29 22:01:54 UTC</createdTime>
+<ownerDesignName>ModelsNEW_NEW</ownerDesignName>
+<importedID>BBCA2E1D-91D6-48E2-628F-FE6D90A9A83E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99103958-11C1-C523-7B19-2246BF0FD740"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

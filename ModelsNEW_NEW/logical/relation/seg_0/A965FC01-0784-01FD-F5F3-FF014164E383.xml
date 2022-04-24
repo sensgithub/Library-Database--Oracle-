@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Borrowing_Reader_FK" directorySegmentName="seg_0" id="A965FC01-0784-01FD-F5F3-FF014164E383">
+<createdBy>User</createdBy>
+<createdTime>2021-11-29 22:01:54 UTC</createdTime>
+<ownerDesignName>ModelsNEW_NEW</ownerDesignName>
+<importedID>55C573BF-80DD-E9CD-F5EF-3CCFCF8045F5</importedID>
+<engineerTo>
+<item key="9DFA8A07-5AA6-2C7F-34CE-67768946188F" value="true"/>
+<item key="3125A9FE-2749-213F-B668-9A30C5555C84" value="true"/>
+<item key="089EABB4-F36B-BEDD-883A-3C3A8A13C7B3" value="true"/>
+</engineerTo>
+<sourcePk>E80C189D-0CEA-8C7E-EFEE-FFFB5D46E1AC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9715B7AF-93D6-3031-82AD-BBF5EF6E0F0A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>00807366-7F29-42D5-D276-800137066F11</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

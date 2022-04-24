@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1017928F-F2C0-FB1D-98FA-88BB3EE8774B" containerWithKeyObject="61C80DDD-C082-768F-DDC3-757210F403AA" localFKIndex="8A34E244-E231-3B92-AE97-C54E2DA16BBD" name="Borrowing_Reader_FK">
+<createdBy>User</createdBy>
+<createdTime>2021-11-29 22:01:54 UTC</createdTime>
+<ownerDesignName>ModelsNEW_NEW</ownerDesignName>
+<importedID>9A8D51F1-ABE9-5C8A-8B60-7EBD278BF42D</importedID>
+<referredTableLongName>Reader</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>43242223-7A3E-D876-C414-1385BDD62D64</referredTableID>
+<keyObject>70963AD5-F54A-BD0B-8706-793AA4754D3D</keyObject>
+<referredKeyID>70963AD5-F54A-BD0B-8706-793AA4754D3D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>reader_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

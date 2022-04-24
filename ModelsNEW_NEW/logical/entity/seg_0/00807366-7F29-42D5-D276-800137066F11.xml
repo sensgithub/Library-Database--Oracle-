@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="00807366-7F29-42D5-D276-800137066F11" name="Borrowing">
+<createdBy>User</createdBy>
+<createdTime>2021-11-29 22:01:54 UTC</createdTime>
+<ownerDesignName>ModelsNEW_NEW</ownerDesignName>
+<importedID>42FF0A17-BA3D-B1E0-4ACF-F19E41D0025D</importedID>
+<engineerTo>
+<item key="9DFA8A07-5AA6-2C7F-34CE-67768946188F" value="true"/>
+<item key="3125A9FE-2749-213F-B668-9A30C5555C84" value="true"/>
+<item key="089EABB4-F36B-BEDD-883A-3C3A8A13C7B3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="book id" id="161EE11F-B2B2-A7B7-95A9-8B3453447019">
+<createdBy>User</createdBy>
+<createdTime>2021-11-29 22:01:54 UTC</createdTime>
+<generatorID>42862A0D-1705-C187-494D-9ED266159633</generatorID>
+<ownerDesignName>ModelsNEW_NEW</ownerDesignName>
+<importedID>5EBBC773-B528-E78E-213B-63FA42A1C914</importedID>
+<engineerTo>
+<item key="9DFA8A07-5AA6-2C7F-34CE-67768946188F" value="true"/>
+<item key="3125A9FE-2749-213F-B668-9A30C5555C84" value="true"/>
+<item key="089EABB4-F36B-BEDD-883A-3C3A8A13C7B3" value="true"/>
+</engineerTo>
+<referedAttribute>C32F6FE3-7F5E-047B-F3AF-B4869367FE11</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="reader id" id="DAEFA0FC-871B-C7B5-E3ED-541242F88B98">
+<createdBy>User</createdBy>
+<createdTime>2021-11-29 22:01:54 UTC</createdTime>
+<generatorID>A965FC01-0784-01FD-F5F3-FF014164E383</generatorID>
+<ownerDesignName>ModelsNEW_NEW</ownerDesignName>
+<importedID>4808776A-86FF-6E31-B04A-49D1F96CF075</importedID>
+<engineerTo>
+<item key="9DFA8A07-5AA6-2C7F-34CE-67768946188F" value="true"/>
+<item key="3125A9FE-2749-213F-B668-9A30C5555C84" value="true"/>
+<item key="089EABB4-F36B-BEDD-883A-3C3A8A13C7B3" value="true"/>
+</engineerTo>
+<referedAttribute>12ABB251-383B-2A07-027C-5FE20C933EA9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="employee id" id="7487C9CE-5AA8-B05B-3083-9D9137C9EB89">
+<createdBy>User</createdBy>
+<createdTime>2021-11-29 22:01:54 UTC</createdTime>
+<generatorID>ADE163B9-2EB5-0B48-641D-7000BA0CBB4B</generatorID>
+<ownerDesignName>ModelsNEW_NEW</ownerDesignName>
+<importedID>83A22B83-E0B8-9119-A625-3FB63E08B98A</importedID>
+<engineerTo>
+<item key="9DFA8A07-5AA6-2C7F-34CE-67768946188F" value="true"/>
+<item key="3125A9FE-2749-213F-B668-9A30C5555C84" value="true"/>
+<item key="089EABB4-F36B-BEDD-883A-3C3A8A13C7B3" value="true"/>
+</engineerTo>
+<referedAttribute>195BEA2B-8EA3-B8C4-A013-913CD1FDFCA7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date borrow" id="C57F177E-2516-CFF1-B058-8B81662604B6">
+<createdBy>User</createdBy>
+<createdTime>2021-11-29 22:01:54 UTC</createdTime>
+<ownerDesignName>ModelsNEW_NEW</ownerDesignName>
+<importedID>0290A216-6E1B-B794-C0E2-AD2B50DC04BA</importedID>
+<engineerTo>
+<item key="9DFA8A07-5AA6-2C7F-34CE-67768946188F" value="true"/>
+<item key="3125A9FE-2749-213F-B668-9A30C5555C84" value="true"/>
+<item key="089EABB4-F36B-BEDD-883A-3C3A8A13C7B3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date period" id="A750230A-B3EB-7AB5-E4C8-C3D57FBAEA80">
+<createdBy>User</createdBy>
+<createdTime>2021-11-29 22:01:54 UTC</createdTime>
+<ownerDesignName>ModelsNEW_NEW</ownerDesignName>
+<importedID>D21158B0-ED50-4B24-33D6-BEF67C863120</importedID>
+<engineerTo>
+<item key="9DFA8A07-5AA6-2C7F-34CE-67768946188F" value="true"/>
+<item key="3125A9FE-2749-213F-B668-9A30C5555C84" value="true"/>
+<item key="089EABB4-F36B-BEDD-883A-3C3A8A13C7B3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

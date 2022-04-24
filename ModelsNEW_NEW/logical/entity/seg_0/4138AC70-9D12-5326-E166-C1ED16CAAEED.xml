@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4138AC70-9D12-5326-E166-C1ED16CAAEED" name="Author">
+<createdBy>User</createdBy>
+<createdTime>2021-11-29 22:01:54 UTC</createdTime>
+<ownerDesignName>ModelsNEW_NEW</ownerDesignName>
+<importedID>8294C576-033C-874F-9A3B-599458CFAC06</importedID>
+<engineerTo>
+<item key="9DFA8A07-5AA6-2C7F-34CE-67768946188F" value="true"/>
+<item key="3125A9FE-2749-213F-B668-9A30C5555C84" value="true"/>
+<item key="089EABB4-F36B-BEDD-883A-3C3A8A13C7B3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="author id" id="1C48C360-43D2-5518-5985-459E094406FA">
+<createdBy>User</createdBy>
+<createdTime>2021-11-29 22:01:54 UTC</createdTime>
+<ownerDesignName>ModelsNEW_NEW</ownerDesignName>
+<importedID>8D1B9E55-4E7F-934B-4BA0-6AD1795D273B</importedID>
+<engineerTo>
+<item key="9DFA8A07-5AA6-2C7F-34CE-67768946188F" value="true"/>
+<item key="3125A9FE-2749-213F-B668-9A30C5555C84" value="true"/>
+<item key="089EABB4-F36B-BEDD-883A-3C3A8A13C7B3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="author name" id="D37BCEAE-FDFB-034D-035A-F06A33F90DA1">
+<createdBy>User</createdBy>
+<createdTime>2021-11-29 22:01:54 UTC</createdTime>
+<ownerDesignName>ModelsNEW_NEW</ownerDesignName>
+<importedID>063A0DAB-A886-BD49-330F-0F4AD0C5E8AE</importedID>
+<engineerTo>
+<item key="9DFA8A07-5AA6-2C7F-34CE-67768946188F" value="true"/>
+<item key="3125A9FE-2749-213F-B668-9A30C5555C84" value="true"/>
+<item key="089EABB4-F36B-BEDD-883A-3C3A8A13C7B3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4CC63D6D-0D4D-3B50-1BDB-4A99C9794363" name="Author PK">
+<createdBy>User</createdBy>
+<createdTime>2021-11-29 22:01:54 UTC</createdTime>
+<ownerDesignName>ModelsNEW_NEW</ownerDesignName>
+<importedID>1E681B24-3E5C-0206-8759-19838E32809B</importedID>
+<engineerTo>
+<item key="9DFA8A07-5AA6-2C7F-34CE-67768946188F" value="true"/>
+<item key="3125A9FE-2749-213F-B668-9A30C5555C84" value="true"/>
+<item key="089EABB4-F36B-BEDD-883A-3C3A8A13C7B3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1C48C360-43D2-5518-5985-459E094406FA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="11A486C2-E937-D0C4-94B8-EAC6DEE2CD85" containerWithKeyObject="61C80DDD-C082-768F-DDC3-757210F403AA" localFKIndex="90E31ABA-C1A3-96C9-A9F2-AA7D1F0FEFF8" name="Borrowing_Book_FK">
+<createdBy>User</createdBy>
+<createdTime>2021-11-29 22:01:54 UTC</createdTime>
+<ownerDesignName>ModelsNEW_NEW</ownerDesignName>
+<importedID>DFCF9A84-0611-8AE0-AE72-DA1DDADF13DA</importedID>
+<referredTableLongName>Book</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B87E2EDB-5328-3171-A4E8-48BED82BF7FA</referredTableID>
+<keyObject>1EFEF63E-20B1-9C59-A3B3-DA8E78C60214</keyObject>
+<referredKeyID>1EFEF63E-20B1-9C59-A3B3-DA8E78C60214</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>book_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

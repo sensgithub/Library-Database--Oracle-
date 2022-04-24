@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Borrowing_Employee_FK" directorySegmentName="seg_0" id="ADE163B9-2EB5-0B48-641D-7000BA0CBB4B">
+<createdBy>User</createdBy>
+<createdTime>2021-11-29 22:01:54 UTC</createdTime>
+<ownerDesignName>ModelsNEW_NEW</ownerDesignName>
+<importedID>C32716F3-43A8-7E46-9492-B6E3ABCDD65D</importedID>
+<engineerTo>
+<item key="9DFA8A07-5AA6-2C7F-34CE-67768946188F" value="true"/>
+<item key="3125A9FE-2749-213F-B668-9A30C5555C84" value="true"/>
+<item key="089EABB4-F36B-BEDD-883A-3C3A8A13C7B3" value="true"/>
+</engineerTo>
+<sourcePk>020ADD85-A749-D17B-7EE4-37F178E94379</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>94A945CA-9B90-E97C-F87C-20FE21B30075</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>00807366-7F29-42D5-D276-800137066F11</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
